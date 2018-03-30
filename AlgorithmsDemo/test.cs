@@ -8,21 +8,26 @@ namespace AlgorithmsDemo
 {
     class test
     {
-
+        private int _numOfVariables = 0;
         public int[] arr;
-        public test(int count)
+        public test(string data)
         {
-            arr = new int[count];
+            arr = new int[VarCounter(data)];
         }
 
         public int VarCounter(string s)
         {
             foreach (char c in s)
             {
-
+                if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
+                {
+                    _numOfVariables++;
+                }
             }
 
-            return 0;
+            return _numOfVariables;
         }
+
+        4
     }
 }
