@@ -18,10 +18,11 @@ namespace AlgorithmsDemo
         public int VarCounter(string s)
         {
             foreach (char c in s)
-            {
+            { 
                 if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
                 {
                     _numOfVariables++;
+
                 }
             }
 
