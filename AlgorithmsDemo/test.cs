@@ -29,6 +29,6 @@ namespace AlgorithmsDemo
             return _numOfVariables;
         }
 
-        4
+        
     }
 }
