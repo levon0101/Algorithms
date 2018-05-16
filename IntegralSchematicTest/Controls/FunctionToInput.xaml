@@ -6,23 +6,24 @@
              xmlns:local="clr-namespace:IntegralSchematicTest.Controls"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-        <StackPanel>
-         
-          
-                
-            <Grid x:Name="InputGrid" >
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="auto"/>
-                    <ColumnDefinition Width="auto"/>
-                    <ColumnDefinition Width="auto"/>
-                </Grid.ColumnDefinitions>
+    <Grid >
 
-                <Label Content="N" Grid.Column="0" Margin="3"/>
-                <Label Content="Function Name" Margin="3" Grid.Column="1"/>
-                <Label Content="Function" Margin="3" Grid.Column="2" Width="100"/>
-            </Grid>
-            <Button Content="Calculate" Visibility="Hidden" x:Name="calculateBtn"/>
-        </StackPanel>
+            <ScrollViewer>
+                <StackPanel>
+                    <Grid x:Name="InputGrid" >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Content="N" Grid.Column="0" Margin="3"/>
+                        <Label Content="Function Name" Margin="3" Grid.Column="1"/>
+                        <Label Content="Function" Margin="3" Grid.Column="2" Width="100"/>
+                </Grid>
+                <Button Content="Calculate" Visibility="Hidden" x:Name="calculateBtn"/>
+                </StackPanel>
+
+            </ScrollViewer> 
     </Grid>
 </UserControl>

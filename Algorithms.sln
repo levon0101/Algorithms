@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegralSchematicTest", "IntegralSchematicTest\IntegralSchematicTest.csproj", "{EFF84317-2FEE-4157-8081-5F76006F6192}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleFiguresDemo", "ConsoleFiguresDemo\ConsoleFiguresDemo.csproj", "{C48824E4-9C65-405D-9A13-28495A47CB75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EFF84317-2FEE-4157-8081-5F76006F6192}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFF84317-2FEE-4157-8081-5F76006F6192}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFF84317-2FEE-4157-8081-5F76006F6192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C48824E4-9C65-405D-9A13-28495A47CB75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48824E4-9C65-405D-9A13-28495A47CB75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48824E4-9C65-405D-9A13-28495A47CB75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48824E4-9C65-405D-9A13-28495A47CB75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

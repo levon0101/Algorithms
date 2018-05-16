@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D348FB92-AB2E-4611-A078-27D2C244EFD3}</ProjectGuid>
+    <ProjectGuid>{C48824E4-9C65-405D-9A13-28495A47CB75}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AlgorithmsDemo</RootNamespace>
-    <AssemblyName>AlgorithmsDemo</AssemblyName>
+    <RootNamespace>ConsoleFiguresDemo</RootNamespace>
+    <AssemblyName>ConsoleFiguresDemo</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,19 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MathAlgorithms.cs" />
+    <Compile Include="Figures.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BinarySearch\BinarySearch.csproj">
-      <Project>{9704da0f-c296-4261-9ff0-a3b26a0eda2b}</Project>
-      <Name>BinarySearch</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

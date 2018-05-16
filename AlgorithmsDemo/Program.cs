@@ -9,15 +9,15 @@ namespace AlgorithmsDemo
 {
     class Program
     {
-        static void Main(string[] args)
+        static void ShowBinarySearchExample(int count)
         {
             Random r = new Random();
 
-            int[] MyArray = new int[1000];
+            int[] MyArray = new int[count];
 
             for (int i = 0; i < MyArray.Length; i++)
             {
-                MyArray[i] = r.Next(10000); 
+                MyArray[i] = r.Next(10000);
             }
 
             Array.Sort(MyArray);
@@ -26,8 +26,14 @@ namespace AlgorithmsDemo
             {
                 Console.WriteLine($"index i = {i} value = {MyArray[i]}");
             }
-            
-            BinarySearcher.Search(MyArray,0);
+
+            BinarySearcher.Search(MyArray, 0);
+        }
+        static void Main(string[] args)
+        {
+           // ShowBinarySearchExample(60);
+
+            MathAlgorithms.FibonacciCiclic(5, true);
 
             Console.ReadKey();
         }
