@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmsDemo", "AlgorithmsDemo\AlgorithmsDemo.csproj", "{D348FB92-AB2E-4611-A078-27D2C244EFD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{9704DA0F-C296-4261-9FF0-A3B26A0EDA2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingSearchngAlgorithms", "BinarySearch\SortingSearchngAlgorithms.csproj", "{9704DA0F-C296-4261-9FF0-A3B26A0EDA2B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegralSchematicTest", "IntegralSchematicTest\IntegralSchematicTest.csproj", "{EFF84317-2FEE-4157-8081-5F76006F6192}"
 EndProject

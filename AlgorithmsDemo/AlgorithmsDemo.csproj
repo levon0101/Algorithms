@@ -51,9 +51,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BinarySearch\BinarySearch.csproj">
+    <ProjectReference Include="..\BinarySearch\SortingSearchngAlgorithms.csproj">
       <Project>{9704da0f-c296-4261-9ff0-a3b26a0eda2b}</Project>
-      <Name>BinarySearch</Name>
+      <Name>SortingSearchngAlgorithms</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

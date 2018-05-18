@@ -29,11 +29,30 @@ namespace AlgorithmsDemo
 
             BinarySearcher.Search(MyArray, 0);
         }
+
+        static void ShowSelectionSortExample(int conut)
+        {
+            Random r = new Random();
+
+            int[] MyArray = new int[conut];
+
+            for (int i = 0; i < MyArray.Length; i++)
+            {
+                MyArray[i] = r.Next(10000);
+            }
+
+            SelectionSort<int>.Sort(MyArray);
+
+            for (int i = 0; i < MyArray.Length; i++)
+            {
+                Console.WriteLine($"index i = {i} value = {MyArray[i]}");
+            }
+        }
         static void Main(string[] args)
         {
-           // ShowBinarySearchExample(60);
-
-            MathAlgorithms.FibonacciCiclic(5, true);
+            // ShowBinarySearchExample(60);
+            ShowSelectionSortExample(20);
+           // MathAlgorithms.FibonacciCiclic(5, true);
 
             Console.ReadKey();
         }
