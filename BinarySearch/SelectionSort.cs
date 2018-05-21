@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BinarySearch
+namespace SortingSearchngAlgorithms
 {
     public static class SelectionSort<T> where T : IComparable
     {

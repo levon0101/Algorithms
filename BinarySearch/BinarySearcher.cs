@@ -1,18 +1,43 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace BinarySearch
+namespace SortingSearchngAlgorithms
 {
     public class BinarySearcher
     {
-        public static int Search(int[] myArray,int toFind)
+
+        public static int Search<T>(T[] arr, T toFind, out int interationCount) where T : IComparable
+        {
+
+            int low = 0;
+            int high = arr.Length - 1;
+            interationCount = 0;
+            int location = -1;
+            do
+            {
+                interationCount++;
+                int middle = (high - low+1) / 2;
+                if (arr[middle].CompareTo(toFind) > 0)
+                {
+                    high = middle-1;
+                }
+                else if (arr[middle].CompareTo(toFind) < 0)
+                {
+                    low = middle+1;
+                }
+                else
+                {
+                    location = middle;
+                }
+            }
+            while (low <= high && location == -1);
+            return location;
+        }
+        public static int Search(int[] myArray, int toFind)
         {
             int index = myArray.Length / 2;
 
             return 0;
         }
     }
+
 }
