@@ -77,13 +77,32 @@ namespace AlgorithmsDemo
                 Console.WriteLine($"index i = {i} value = {MyArray[i]}");
             }
         }
+
+        static void ShowSortExample(int conut, bool isLowToHigh)
+        {
+            Random r = new Random();
+
+            int[] MyArray = new int[conut];
+
+            for (int i = 0; i < MyArray.Length; i++)
+            {
+                MyArray[i] = r.Next(10000);
+            }
+
+            InsertionSort.Sort(MyArray, isLowToHigh);
+
+            for (int i = 0; i < MyArray.Length; i++)
+            {
+                Console.WriteLine($"index i = {i} value = {MyArray[i]}");
+            }
+        }
         static void Main(string[] args)
         {
-             ShowBinarySearchExample(30,100, 31);
+             //ShowBinarySearchExample(3000,3000, 31);
             // ShowSelectionSortExample(20);
             //ShowBubbleSortExample(60,false);
             // MathAlgorithms.FibonacciCiclic(5, true);
-
+            ShowSortExample(30,false);
             Console.ReadKey();
         }
     }

@@ -15,12 +15,12 @@ namespace SortingSearchngAlgorithms
             do
             {
                 interationCount++;
-                int middle = (high - low+1) / 2;
-                if (arr[middle].CompareTo(toFind) > 0)
+                int middle = (high + low+1) / 2;
+                if (toFind.CompareTo(arr[middle]) < 0)
                 {
                     high = middle-1;
                 }
-                else if (arr[middle].CompareTo(toFind) < 0)
+                else if (toFind.CompareTo(arr[middle]) > 0)
                 {
                     low = middle+1;
                 }
