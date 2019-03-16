@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ProjectEulerAlgorithms;
 using SortingSearchngAlgorithms;
 
 namespace AlgorithmsDemo
@@ -102,7 +103,11 @@ namespace AlgorithmsDemo
             // ShowSelectionSortExample(20);
             //ShowBubbleSortExample(60,false);
             // MathAlgorithms.FibonacciCiclic(5, true);
-            ShowSortExample(30,false);
+           // ShowSortExample(30,false);
+
+            //var result = ProjectEulerTasks.Task1_MultiplesOf(1000, 3, 5);
+            var result = ProjectEulerTasks.Task2_EvenFibbonaciNumbers();
+            Console.WriteLine(result);
             Console.ReadKey();
         }
     }

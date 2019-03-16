@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegralSchematicTest", "In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleFiguresDemo", "ConsoleFiguresDemo\ConsoleFiguresDemo.csproj", "{C48824E4-9C65-405D-9A13-28495A47CB75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectEulerAlgorithms", "ProjectEulerAlgorithms\ProjectEulerAlgorithms.csproj", "{A609CA09-6913-4137-A1C6-6AB01780F087}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C48824E4-9C65-405D-9A13-28495A47CB75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C48824E4-9C65-405D-9A13-28495A47CB75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C48824E4-9C65-405D-9A13-28495A47CB75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A609CA09-6913-4137-A1C6-6AB01780F087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A609CA09-6913-4137-A1C6-6AB01780F087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A609CA09-6913-4137-A1C6-6AB01780F087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A609CA09-6913-4137-A1C6-6AB01780F087}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
